@@ -1,38 +1,54 @@
-<p align="center">
-  <img alt="Rocketseat Education" src="https://avatars.githubusercontent.com/u/69590972?s=200&v=4" width="100px" />
-</p>
+# 📚 Desafio 2.1 - Criando um hook de carrinho de compras
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=Rocketseat&message=Education&color=8257e5&labelColor=202024" alt="Rocketseat Project" />
-  <a href="LICENSE"><img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=8257e5&labelColor=202024" alt="License"></a>
-</p>
+> Esse é o desafio obrigatório proposto no chapter II da trilha de React, cujo objetivo é treinar o que foi aprendido sobre o uso de hooks.
+>
+> _Status: Em andamento._
 
+## ✅ Funcionalidades
 
-## 💻 Projeto
+- [ ] Adicionar um novo produto ao carrinho;
+- [ ] Remover um produto do carrinho;
+- [ ] Alterar a quantidade de um produto no carrinho;
+- [ ] Cálculo dos preços sub-total e total do carrinho;
+- [ ] Validação de estoque;
+- [ ] Exibição de mensagens de erro;
 
-ignite-template-reactjs-criando-um-hook-de-carrinho-de-compras
+## 🚀 Tecnologias utilizadas
 
-## 📝 Licença
+- ReactJS
+- Testes com jest
+- Fake API com JSON Server
+- LocalStorage API
+- Toastify
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+## 💻 Como rodar
 
----
+1. Clonar o repositório:
 
-<p align="center">
-  Feito com 💜 by Rocketseat
-</p>
+```bash
+git clone git@github.com:lineavelino/ignite-desafio-2-1.git
+```
 
+2. Entrar na pasta do repositório:
 
-<!--START_SECTION:footer-->
+```bash
+cd ignite-desafio-2-1
+```
 
-<br />
-<br />
+3. Abrir no editor (manualmente ou pela linha de código, como no exemplo):
 
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
+```bash
+code .
+```
 
-<!--END_SECTION:footer-->
+4. Instalar as dependências:
 
+```bash
+npm i
+```
+
+5. Rodar o servidor:
+
+```bash
+npm run start
+```
