@@ -47,8 +47,14 @@ code .
 npm i
 ```
 
-5. Rodar o servidor:
+5. Rodar a aplicação:
 
 ```bash
 npm run start
+```
+
+6. Rodar a API fake:
+
+```bash
+npm run server
 ```
