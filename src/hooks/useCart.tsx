@@ -35,8 +35,10 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
   const addProduct = async (productId: number) => {
     try {
       // TODO
+      console.log({productId});      
     } catch {
       // TODO
+      toast.error("Quantidade solicitada fora de estoque");
     }
   };
 
